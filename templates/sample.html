@@ -1,0 +1,83 @@
+<head>
+    <link rel="stylesheet" href="sample.css">
+    <style>
+        .dropbtn {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 16px;
+            width: 282px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            
+        }
+
+        .dropdown {
+            min-height:50px; 
+    overflow-y :scroll; 
+    overflow-x:hidden; 
+    position:absolute;
+    width:300px;
+    display: contents;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 282px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<div class="container right-panel-active">
+        <form action="#" class="form" id="form1">
+            <h1 class="form__title">Welcome!</h1>
+            <div class="dropdown">
+                
+                <select class="dropbtn">
+                    <option value="1">option 1 The Long Option</option>
+                    <option value="2">option 2</option>
+                    <option value="3">option 3</option>
+                    <option value="4">option 4</option>
+                    <option value="5">option 5 Another Longer than the Long Option ;)</option>
+                    <option value="6">option 6</option>
+                </select>
+            </div>
+            <input type="date" placeholder="Date" class="input" />
+            <button class="button tilting-lifting-button fly-in">Submit</button>
+        </form>
+     <!-- </div>  -->
+
+    <!-- Overlay -->
+    <!-- <div class="container__overlay">
+        <div class="overlay">
+            <div class="overlay__panel overlay--left">
+				<button class="btn" id="signIn">Sign In</button>
+			</div> -->
+            <!-- <div class="overlay__panel overlay--right">
+                <button class="btn" id="submit">Submit</button>
+            </div>
+        </div>
+    </div> -->
+</div>
