@@ -1,6 +1,6 @@
 ## Inspiration 💡
-As the topic of this hackathon is Sustain Hack so we got together and brainstorm the idea on electricity saving as we know that the electricity is most important and daily used component and without it even a minute feels like a day.
-In todays world there are many models that provide us with the information that predicts that there should be X amount of electricity that should be produced but there is lack of model, data and platforms which shows or calculate the overflow of electricity sent to that particular route.
+We brainstormed the project idea on electricity saving based on theme as we know that the electricity is most important and daily used component and without it even a minute feels like a day.
+In today's world there are many models that provide us with the information that predicts that there should be X amount of electricity that should be produced but there is lack of model, data and platforms which shows or calculate the overflow of electricity sent to that particular route.
 So we decided to create and train our model so that it can find the precise amout of electricity needed for that particular location so that there is minimum energy lost.
 
 ## What it does 🔎
