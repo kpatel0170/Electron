@@ -23,3 +23,9 @@ def home():
    return render_template('sample.html')
 if __name__ == '__samplee__':
    app.run(debug = True)
+
+@app.route('/submit')
+def demo():
+   return render_template('demo.html')
+if __name__ == '__samplee__':
+   app.run(debug = True)
