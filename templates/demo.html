@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Digital Number - Byte This!</title>
+
+    <style>
+        body {
+            font-family: Consolas;
+            font-size: 1.4em;
+            margin: 0;
+            padding: 0;
+            background: url("https://cdn.discordapp.com/attachments/1048096517979910184/1048856669658034176/wallpaperflare.com_wallpaper.jpg");
+            background-size: cover;
+            height: 100vh;
+            place-items: center;
+        }
+
+        header {
+            border-bottom: 1px solid black;
+            padding: 10px;
+            background-color: coral;
+        }
+
+        content {
+            display: block;
+            padding: 20px;
+        }
+
+        h1 {
+            font: "inter";
+            color: #ffffff;
+            display: block;
+            font-size: 50px;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        p {
+
+            font: "inter";
+            color: #ffffff;
+            display: block;
+            line-height: 50px;
+            font-size: 40px;
+            max-width: fit-content;
+            text-align: left;
+            padding-left: 0;
+            padding-right: 25%;
+        }
+
+        /* Digital Digit / Number Styles */
+        digital-digit {
+            display: inline-block;
+
+            height: 130px;
+            width: 65px;
+
+            margin: 20px;
+        }
+
+        /** These classes will control individual digit part visibility */
+        .digital-digit-inactive {
+            background-color: #101010;
+        }
+
+        .digital-digit-active {
+            background-color: #01ffcb;
+            /* add slight boldness to active elements */
+            border: 1px solid #01ffcb;
+        }
+
+        mark {
+            background-color: rgb(0, 94, 255);
+            color: black;
+        }
+
+        mark1 {
+            background-color: rgb(234, 255, 0);
+            color: black;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, .5);
+            border-radius: var(--button-radius);
+            box-shadow: 0 0.9rem 1.7rem rgb(0 0 0 / 25%), 0 0.7rem 0.7rem rgb(0 0 0 / 22%);
+            height: var(--max-height);
+            max-width: var(--max-width);
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        Save Energy Save Earth!
+    </header>
+
+    <content>
+        <div class="container right-panel-active">
+            <h1><mark>Energy Sustainability</mark></h1>
+            <p>Almost 1-2% of energy is lost during the step-up transformer from when the electricity
+                is generated to when it is transmitted.
+            </p>
+            <p>About 4,108 billion kilowatthours (kWh) (or about 4.11 trillion kWh) of electricity were generated at
+                utility-scale electricity generation facilities in the United States. About 61% of this electricity
+                generation was from fossil fuels—coal, natural gas, petroleum, and other gases.</p>
+            <p>Another 5 to 7% of the original primary energy is lost during the delivery of electricity through the T&D
+                system.</p>
+
+            <p>Actual amount of electricity needed is <mark1><span>999</span>kWh</mark1>
+            </p>
+        </div>
+    </content>
+</body>
+
+</html>
